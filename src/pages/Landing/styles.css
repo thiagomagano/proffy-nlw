@@ -16,6 +16,9 @@
 .hero-image {
   width: 100%;
 }
+.hero-image img {
+  width: 100%;
+}
 
 .logo-container {
   text-align: center;
@@ -112,7 +115,9 @@
   }
   .hero-image {
     grid-area: hero;
-    height: 100%;
+  }
+  .hero-image {
+    width: 60rem;
   }
   .buttons-container {
     grid-area: buttons;
